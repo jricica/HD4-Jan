@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Primero",
+        "content": "Codigo de inicio: a1234",
+        "author": "Philip Falla"
+    },
+    {
+        "id": 2,
+        "title": "Segundo",
+        "content": "Codigo de inicio: 2n230s",
+        "author": "Sofia Eggenberger"
+    },
+    {
+        "id": 3,
+        "title": "Tercero",
+        "content": "Codigo de inicio: af2f",
+        "author": "Jose Ignacio Paccagnela"
+    },
+    {
+        "id": 3,
+        "title": "Tercero",
+        "content": "Codigo de inicio: af2f",
+        "author": "Jose Ignacio Paccagnela"
+    }
+]
