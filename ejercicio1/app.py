@@ -19,15 +19,14 @@ entry3_dict = {"id": entry3.id, "title": entry3.title, "content": entry3.content
 entry_4dict = {"id": entry4.id, "title": entry4.title, "content": entry4.content, "author": entry4.author}
 entries_list = [entry1_dict, entry2_dict, entry3_dict, entry_4dict]
 
-# Crear la carpeta "ejercicio1" si no existe
 folder_name = "ejercicio1"
 if not os.path.exists(folder_name):
     os.makedirs(folder_name)
 
-# Ruta del archivo dentro de la carpeta "ejercicio1"
+
 file_path = os.path.join(folder_name, "journal_entries.json")
 
-# Guardar las entradas en el archivo JSON
+
 with open(file_path, "w") as json_file:
     json.dump(entries_list, json_file, indent=4)
 

@@ -1,7 +1,6 @@
 import json
 
 class JournalEntry:
-    # Class variables to keep track of used IDs and emails
     used_ids = set()
     used_emails = set()
 
@@ -42,6 +41,6 @@ for entry_data in data:
     except ValueError as e:
         print(f"Error: {e}")
 
-# Print the created objects for demonstration
+
 for entry in journal_entries:
     print(f"ID: {entry.id}, Title: {entry.title}, Content: {entry.content}, Author: {entry.author}")
